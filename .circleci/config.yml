@@ -15,4 +15,7 @@ workflows:
   build:
     jobs:
       - build:
-        context: dockerhub
+          context: dockerhub
+          filters:
+            branches:
+              ignore: master

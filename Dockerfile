@@ -3,6 +3,7 @@ ARG NODEJS_VERSION
 FROM mhart/alpine-node:slim-${NODEJS_VERSION}
 
 ARG NOW_CLI_VERSION
+ARG CACHE_BUSTER=1
 
 RUN \
   apk add --no-cache curl && \
