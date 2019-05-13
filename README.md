@@ -8,10 +8,10 @@ slim image as a base.
 
 Images are available at the
 [meatwallace/alpine-zeit-now](https://hub.docker.com/r/meatwallace/alpine-zeit-now)
-repository, tagged `meatwallace/alpine-zeit-now:<cli-version>`. All versions
+repository, tagged `meatwallace/alpine-zeit-now:<now-version>`. All versions
 \>=15.2.0 including canary releases should be available.
 
-| now version     | nodejs version | size (un/compressed) |
+| now-version     | nodejs-version | size (un/compressed) |
 |-----------------|----------------|----------------------|
 | 15.2.0          | 10.15.3        | 94.2mb / 36mb        |
 | 15.1.1-canary.4 | 10.15.3        | 94.2mb / 36mb        |
