@@ -30,7 +30,7 @@ jobs:
             # map the Node.js version from our Circle CI context variable
             export NODEJS_VERSION="$NODEJS_LTS_VERSION"
 
-            ./scripts/build.sh
+            ./build.sh
 workflows:
   version: 2
   lint_then_build:
@@ -42,4 +42,6 @@ workflows:
             - lint_scripts
           filters:
             branches:
-              only: /release*./
+              only:
+                - master
+                - /^release.*/
