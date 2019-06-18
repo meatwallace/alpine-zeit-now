@@ -42,6 +42,7 @@ Canary releases:
 
 | now-version     | nodejs-version | size (uncompressed) |
 |-----------------|----------------|---------------------|
+| 15.4.0-canary.6 | 10.16.0        | 98.7MB              |
 | 15.4.0-canary.5 | 10.16.0        | 98.7MB              |
 | 15.4.0-canary.4 | 10.16.0        | 98.7MB              |
 | 15.4.0-canary.3 | 10.16.0        | 98.7MB              |
