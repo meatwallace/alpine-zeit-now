@@ -14,8 +14,8 @@ recent 20 of each will be listed below.
 
 ## Usage
 
-All versions \>=15.3.0 allow for simple usage by including the function below
-in your `~/.bashrc` or equivelant for your shell.
+All versions \>=15.3.0 allow for simple usage by including the function below in
+your `~/.bashrc` or equivelant for your shell.
 
 ```sh
 now() {
@@ -31,32 +31,33 @@ now() {
 
 Stable releases:
 
-| now-version     | nodejs-version | size (uncompressed) |
-|-----------------|----------------|---------------------|
-| 15.5.0          | 10.16.0        | 98.7MB              |
-| 15.4.0          | 10.16.0        | 98.7MB              |
-| 15.3.0          | 10.15.3        | 96.9MB              |
-| 15.2.0          | 10.15.3        | 94.2MB              |
+| now-version | nodejs-version | size (uncompressed) |
+| ----------- | -------------- | ------------------- |
+| 15.5.0      | 10.16.0        | 98.7MB              |
+| 15.4.0      | 10.16.0        | 98.7MB              |
+| 15.3.0      | 10.15.3        | 96.9MB              |
+| 15.2.0      | 10.15.3        | 94.2MB              |
 
 Canary releases:
 
-| now-version     | nodejs-version | size (uncompressed) |
-|-----------------|----------------|---------------------|
-| 15.4.0-canary.9 | 10.16.0        | 98.8MB              |
-| 15.4.0-canary.8 | 10.16.0        | 98.8MB              |
-| 15.4.0-canary.7 | 10.16.0        | 98.7MB              |
-| 15.4.0-canary.6 | 10.16.0        | 98.7MB              |
-| 15.4.0-canary.5 | 10.16.0        | 98.7MB              |
-| 15.4.0-canary.4 | 10.16.0        | 98.7MB              |
-| 15.4.0-canary.3 | 10.16.0        | 98.7MB              |
-| 15.4.0-canary.2 | 10.16.0        | 98.7MB              |
-| 15.4.0-canary.1 | 10.16.0        | 98.7MB              |
-| 15.2.1-canary.7 | 10.16.0        | 98.7MB              |
-| 15.2.1-canary.6 | 10.15.3        | 96.9MB              |
-| 15.2.1-canary.5 | 10.15.3        | 96.9MB              |
-| 15.2.1-canary.4 | 10.15.3        | 96.9MB              |
-| 15.2.1-canary.3 | 10.15.3        | 96.9MB              |
-| 15.2.1-canary.2 | 10.15.3        | 96.9MB              |
-| 15.2.1-canary.1 | 10.15.3        | 95.2MB              |
-| 15.2.1-canary.0 | 10.15.3        | 94.2MB              |
-| 15.1.1-canary.4 | 10.15.3        | 94.2MB              |
+| now-version      | nodejs-version | size (uncompressed) |
+| ---------------- | -------------- | ------------------- |
+| 15.4.0-canary.10 | 10.16.0        | 98.8MB              |
+| 15.4.0-canary.9  | 10.16.0        | 98.8MB              |
+| 15.4.0-canary.8  | 10.16.0        | 98.8MB              |
+| 15.4.0-canary.7  | 10.16.0        | 98.7MB              |
+| 15.4.0-canary.6  | 10.16.0        | 98.7MB              |
+| 15.4.0-canary.5  | 10.16.0        | 98.7MB              |
+| 15.4.0-canary.4  | 10.16.0        | 98.7MB              |
+| 15.4.0-canary.3  | 10.16.0        | 98.7MB              |
+| 15.4.0-canary.2  | 10.16.0        | 98.7MB              |
+| 15.4.0-canary.1  | 10.16.0        | 98.7MB              |
+| 15.2.1-canary.7  | 10.16.0        | 98.7MB              |
+| 15.2.1-canary.6  | 10.15.3        | 96.9MB              |
+| 15.2.1-canary.5  | 10.15.3        | 96.9MB              |
+| 15.2.1-canary.4  | 10.15.3        | 96.9MB              |
+| 15.2.1-canary.3  | 10.15.3        | 96.9MB              |
+| 15.2.1-canary.2  | 10.15.3        | 96.9MB              |
+| 15.2.1-canary.1  | 10.15.3        | 95.2MB              |
+| 15.2.1-canary.0  | 10.15.3        | 94.2MB              |
+| 15.1.1-canary.4  | 10.15.3        | 94.2MB              |
