@@ -20,7 +20,7 @@ your `~/.bashrc` or equivelant for your shell.
 ```sh
 now() {
   # mounts your current working directory & your machines .now config folder
-  docker run -it --rm --name="now" \
+  docker run -it --rm \
     --volume="$PWD:/root/project \
     --volume="$HOME/.now:/root/.now" \
     meatwallace/alpine-zeit-now now "$@"
@@ -47,6 +47,7 @@ Canary releases:
 | now-version      | nodejs-version | size (uncompressed) |
 | ---------------- | -------------- | ------------------- |
 | 15.7.0-canary.9  | 10.16.0        | 98.8MB              |
+| 15.7.0-canary.8  | 10.16.0        | 98.8MB              |
 | 15.7.0-canary.7  | 10.16.0        | 98.8MB              |
 | 15.7.0-canary.6  | 10.16.0        | 98.8MB              |
 | 15.7.0-canary.4  | 10.16.0        | 98.8MB              |
@@ -66,4 +67,3 @@ Canary releases:
 | 15.4.0-canary.4  | 10.16.0        | 98.7MB              |
 | 15.4.0-canary.3  | 10.16.0        | 98.7MB              |
 | 15.4.0-canary.2  | 10.16.0        | 98.7MB              |
-| 15.4.0-canary.1  | 10.16.0        | 98.7MB              |
