@@ -1,17 +1,17 @@
 # :wrench: Contributing
 
-:sparkle: Thanks for your interest in contributing! :sparkle:
+:sparkles: Thanks for your interest in contributing! :sparkles:
 
 The following is a set of guidelines for contributing; they are not rules. Use
 your best judgement, and feel free to propose changes to this document in a pull
 request.
 
-## :speech_baloon: Code of Conduct
+## :speech_balloon: Code of Conduct
 
 To ensure the project is kept open and inclusive, please read and follow the
 [Code of Conduct](./CODE_OF_CONDUCT.md)
 
-## :construction: How can I contribute?
+## :clipboard: How can I contribute?
 
 Given that the project is essentially simple build infrastructure with a release
 cycle that mirrors the [Zeit Now CLI](https://github.com/zeit/now-cli/), the
@@ -31,7 +31,7 @@ commits.
 **Please ask first** before embarking on any significant changes, or if you are
 uncertain if your changes are in line with the project's purpose.
 
-## :clipboard: How do I set up my environment?
+## :construction: How do I set up my environment?
 
 To make changes to the project, you will require Docker and Yarn >= v1.13 so
 that tooling within the project works as expected.
@@ -44,7 +44,7 @@ project's dependencies.
 To install Docker, please see their official
 [installation instructions](https://docs.docker.com/install/).
 
-## :memo: What do I need to know before submitting?
+## :bookmark_tabs: What do I need to know before submitting?
 
 This project follows a strict
 [commit message structure](https://github.com/meatwallace/alpine-zeit-now/commits/master),

@@ -1,4 +1,4 @@
-# Zeit Now CLI Docker Images
+# :whale2: Zeit Now CLI Docker Images
 
 [![CircleCI](https://circleci.com/gh/meatwallace/alpine-zeit-now.svg?style=svg)](https://circleci.com/gh/meatwallace/alpine-zeit-now)
 
@@ -36,7 +36,7 @@ now() {
 
 ## :wrench: Contributing
 
-### :speech_baloon: Code of Conduct
+### :speech_balloon: Code of Conduct
 
 This project has adopted a [Code of Conduct](./CODE_OF_CONDUCT.md) that project
 participants are expected to adhere to.
