@@ -10,7 +10,7 @@ docker build . --tag="$IMAGE_TAG:latest"
 
 # run the container and print the `now` version to sanity check that we've
 # built an image that runs with the correct version
-NOW_VERSION="$(docker run "$IMAGE_TAG" now --version)"
+NOW_VERSION="$(docker run "$IMAGE_TAG" --version)"
 
 # tag the image with the appropriate version and push it if we're on master
 if [ "$GIT_BRANCH" = "master" ]; then
