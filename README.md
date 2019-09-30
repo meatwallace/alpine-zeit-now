@@ -4,14 +4,14 @@
 
 Barebones Alpine Linux image containing Zeit's
 [`now` CLI](https://github.com/zeit/now-cli) using
-[mhart/alpine-node](https://github.com/mhart/alpine-node)'s latest LTS slim
+[`mhart/alpine-node`](https://github.com/mhart/alpine-node)'s latest LTS slim
 image as a base.
 
 Images are available at the
 [meatwallace/alpine-zeit-now](https://hub.docker.com/r/meatwallace/alpine-zeit-now)
-repository, tagged `meatwallace/alpine-zeit-now:<now-version>`. All versions
-\>=15.2.0 including canary releases should be available, and are < 100MB
-uncompressed.
+Dockerhub repository, tagged `meatwallace/alpine-zeit-now:<version>`. All
+versions \>=15.2.0 including canary releases should be available, and are <
+100MB uncompressed.
 
 ## :rocket: Usage
 
@@ -22,7 +22,7 @@ docker run -it --rm --volume="$PWD:/root/project" meatwallace/alpine-zeit-now no
 ```
 
 All versions \>=15.3.0 allow for simple usage by including the function below in
-your `~/.bashrc` or equivelant for your shell.
+your `~/.bashrc` or equivelant for your shell:
 
 ```shell
 now() {
@@ -46,6 +46,6 @@ participants are expected to adhere to.
 Read the [contributing guide](./CONTRIBUTING.md) to learn about how to propose
 and contribute changes to this project.
 
-### :scroll: License
+## :scroll: License
 
-This project is [MIT licensed](./LICENSE)
+This project is [MIT licensed](./LICENSE).

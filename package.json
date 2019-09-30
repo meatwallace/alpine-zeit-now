@@ -1,4 +1,14 @@
 {
   "name": "alpine-zeit-now",
-  "private": true
+  "private": true,
+  "scripts": {
+    "build": "./build.sh"
+  },
+  "devDependencies": {
+    "@meatwallace/prettier-config": "1.2.0",
+    "husky": "3.0.0",
+    "lint-staged": "9.2.0",
+    "prettier": "1.18.2",
+    "rxjs": "6.5.2"
+  }
 }
