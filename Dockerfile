@@ -2,7 +2,7 @@ ARG NODEJS_VERSION="10.16.3"
 
 FROM mhart/alpine-node:${NODEJS_VERSION}
 
-ARG NOW_VERSION="15.8.2"
+ARG NOW_VERSION="15.8.3"
 
 RUN \
   npm config set ignore-scripts false && \
